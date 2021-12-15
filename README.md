@@ -1,6 +1,3 @@
-# questionnaire
-Questionaire generation
-
 L'API produit des QCMs de 5, 10 ou 20 questions. L'utilisateur choisit un type de test (use) ainsi qu'une ou plusieurs catégories (subject). Les questions sont retournées dans un ordre aléatoire: ainsi, une requête avec les mêmes paramètres pourra retourner des questions différentes.
 
 Endpoints:
