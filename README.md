@@ -2,11 +2,11 @@ L'API produit des QCMs de 5, 10 ou 20 questions. L'utilisateur choisit un type d
 
 Endpoints:
 
-/status
+GET /status
 Cette fonction renvoie 1 si l'API fonctionne.
 
-/post_questions
+POST /post_questions
 Cette fonction renvoie une série de questions
        
-/post_question
+POST /post_question
 Cette fonction permet a un utilisateur admin de créer une nouvelle question
